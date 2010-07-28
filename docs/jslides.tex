@@ -1,0 +1,44 @@
+\documentclass{beamer}
+
+\usepackage{listings}
+\usepackage{beamerthemesplit}
+
+\title{ProgBots: Code your Way to Victory}
+\author{G.~Nicholas D'Andrea}
+\institute{Drexel University}
+\date{March 12, 2009}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\frame
+{
+    \frametitle{Summary}
+    
+\begin{itemize}
+\item ProgBots is not a game in the traditional sense; instead, players compete
+using robots \emph{they} have programmed to best their opponents
+
+\item Robot source code uses a secure API that ensures fair-play and proper 
+robot conduct.
+\end{itemize}
+}
+
+\frame
+{
+  \frametitle{Screenshot}
+
+\includegraphics[scale=0.4]{screenshot.png}
+}
+
+\frame
+{
+  \frametitle{Example Robot Sourcecode}
+  \lstset {language=Java}
+  \lstinputlisting{CornerBot.java}
+
+
+}
+
+\end{document}

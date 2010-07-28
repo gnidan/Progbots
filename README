@@ -1,0 +1,23 @@
+HOW TO RUN:
+
+To compile, run `ant` in the main directory.
+It will generate a progbots.jar which can be run with `java -jar
+progbots.jar`.
+
+HOW TO PROGRAM ROBOTS:
+
+Use RobotAPI methods. To compile, compile using the progbots.jar as your
+classpath. For instance: `javac YourRobot.java -classpath progbots.jar`
+Then, package the class file in a jar with 'jar cf YourRobot.jar
+YourRobot.class`
+
+How to Use Program:
+
+Load each robot by clicking the load robot button, then when done, click start
+match.
+
+Not yet implemented:
+
+Damage detection. Game will run indefinitely because program does not yet have
+the capacity implemented for robots to kill each other. Game will end when
+"pause match" is pressed and program is exited.
